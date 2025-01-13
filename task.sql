@@ -47,7 +47,7 @@ CREATE TABLE Users(
     Email VARCHAR(50)
 );
 
---rollback DROP TABLE Orders;
+--rollback DROP TABLE Users;
 
 --changeset greena1c:0.0.3
 CREATE UNIQUE INDEX idx_email ON Users(Email);
